@@ -1,0 +1,161 @@
+.tracking-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+.tracking-header {
+  text-align: center;
+}
+
+.tracking-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.search-order-container {
+  padding: 24px;
+}
+
+.search-order-form {
+  display: flex;
+  gap: 16px;
+}
+
+.search-order-form .input-glass {
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.search-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Tracking Details */
+.tracking-details {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.order-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--surface-border);
+  padding-bottom: 24px;
+}
+
+.order-info-header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+  color: var(--primary-color);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.status-badge {
+  background: rgba(55, 114, 255, 0.15);
+  color: var(--text-main);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  border: 1px solid rgba(55, 114, 255, 0.4);
+}
+
+/* Timeline */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.timeline-step {
+  display: flex;
+  gap: 24px;
+  min-height: 100px;
+}
+
+.timeline-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-color-50);
+  border: 2px solid var(--surface-border);
+  color: var(--text-muted);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.timeline-connector {
+  width: 2px;
+  flex-grow: 1;
+  background: var(--surface-border);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.timeline-step.completed .timeline-icon {
+  background: var(--primary-gradient);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 4px 14px rgba(55, 114, 255, 0.5);
+}
+
+.timeline-step.completed .timeline-connector {
+  background: var(--primary-color);
+}
+
+.timeline-content {
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+.timeline-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+  color: var(--text-main);
+}
+
+.timeline-step.pending .timeline-content h4 {
+  color: var(--text-muted);
+}
+
+.timeline-content p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Shipping Details */
+.shipping-address {
+  background: white;
+  padding: 20px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--surface-border);
+}
+
+.shipping-address h4 {
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.shipping-address p {
+  color: var(--text-muted);
+  line-height: 1.5;
+}
