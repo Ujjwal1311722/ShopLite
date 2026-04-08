@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ShoppingBag } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useSelector } from 'react-redux';
+import { selectCartItems, selectCartTotal, selectCartCount } from '../store/cartSlice';
 import CartItem from '../components/CartItem';
 import './Cart.css';
 
 const Cart = () => {
-  const { cartItems, cartTotal, itemCount } = useCart();
+  const cartItems = useSelector(selectCartItems);
+  const cartTotal = useSelector(selectCartTotal);
+  const itemCount = useSelector(selectCartCount);
 
   if (cartItems.length === 0) {
     return (

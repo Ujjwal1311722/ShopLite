@@ -1,0 +1,323 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sony WH-1000XM5",
+      "price": 348,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=800&auto=format&fit=crop",
+      "description": "Industry leading noise canceling wireless headphones."
+    },
+    {
+      "id": "2",
+      "name": "Minimalist Desk Lamp",
+      "price": 89.99,
+      "category": "Home",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop",
+      "description": "Sleek and modern desk lamp with adjustable brightness."
+    },
+    {
+      "id": "3",
+      "name": "Mechanical Keyboard",
+      "price": 129.5,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=800&auto=format&fit=crop",
+      "description": "Wireless mechanical keyboard with tactile switches."
+    },
+    {
+      "id": "4",
+      "name": "Leather Walton Briefcase",
+      "price": 245,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
+      "description": "Premium full-grain leather briefcase for professionals."
+    },
+    {
+      "id": "5",
+      "name": "Ceramic Pour-Over Coffee Maker",
+      "price": 45,
+      "category": "Home",
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?q=80&w=800&auto=format&fit=crop",
+      "description": "Handcrafted ceramic pour-over coffee set."
+    },
+    {
+      "id": "6",
+      "name": "Smart Fitness Watch",
+      "price": 199.99,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=800&auto=format&fit=crop",
+      "description": "Advanced health tracking with an elegant AMOLED display."
+    },
+    {
+      "id": "7",
+      "name": "Linen Button-Down Shirt",
+      "price": 65,
+      "category": "Clothing",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
+      "description": "Breathable 100% linen shirt, perfect for summer."
+    },
+    {
+      "id": "8",
+      "name": "Wireless Noise-Canceling Earbuds",
+      "price": 149.99,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=800&auto=format&fit=crop",
+      "description": "Compact wireless earbuds with active noise cancellation and premium sound."
+    },
+    {
+      "id": "9",
+      "name": "Premium Wool Beanie",
+      "price": 28,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800&auto=format&fit=crop",
+      "description": "Warm merino wool beanie in a classic ribbed knit."
+    },
+    {
+      "id": "10",
+      "name": "Ergonomic Office Chair",
+      "price": 320,
+      "category": "Home",
+      "image": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=800&auto=format&fit=crop",
+      "description": "Highly adjustable chair designed for all-day comfort."
+    },
+    {
+      "id": "11",
+      "name": "Vintage Film Camera",
+      "price": 185,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+      "description": "Classic 35mm film camera with a 50mm f/1.8 lens."
+    },
+    {
+      "id": "12",
+      "name": "Running Sneakers",
+      "price": 140,
+      "category": "Clothing",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+      "description": "Lightweight performance running shoes with breathable mesh."
+    },
+    {
+      "id": "14",
+      "name": "Stainless Steel Water Bottle",
+      "price": 35,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=800&auto=format&fit=crop",
+      "description": "Insulated water bottle that keeps drinks cold for 24 hours."
+    },
+    {
+      "id": "15",
+      "name": "Organic Cotton T-Shirt",
+      "price": 25,
+      "category": "Clothing",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
+      "description": "Minimalist premium organic cotton everyday t-shirt."
+    },
+    {
+      "id": "16",
+      "name": "iPhone 15 Pro",
+      "price": 999,
+      "category": "Phones",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=800&auto=format&fit=crop",
+      "description": "Latest flagship smartphone featuring a titanium design and advanced camera system."
+    },
+    {
+      "id": "17",
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": 1299.99,
+      "category": "Phones",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=800&auto=format&fit=crop",
+      "description": "Premium Android smartphone with a high-resolution display and S Pen support."
+    },
+    {
+      "id": "18",
+      "name": "Classic Aviator Sunglasses",
+      "price": 120,
+      "category": "Daily Accessories",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800&auto=format&fit=crop",
+      "description": "Timeless aviator sunglasses with polarized lenses to protect against glare."
+    },
+    {
+      "id": "19",
+      "name": "Leather Minimalist Wallet",
+      "price": 45,
+      "category": "Daily Accessories",
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=800&auto=format&fit=crop",
+      "description": "Slim leather wallet designed to hold essential cards and a few bills."
+    },
+    {
+      "id": "20",
+      "name": "Smart Key Organizer",
+      "price": 22,
+      "category": "Daily Accessories",
+      "image": "https://images.unsplash.com/photo-1590212151175-e58edd96185b?q=80&w=800&auto=format&fit=crop",
+      "description": "Compact key organizer made of durable materials, preventing keys from jingling."
+    }
+  ],
+  "orders": [
+    {
+      "id": "Br42j0K5nXc",
+      "customer": {
+        "firstName": "ANAY",
+        "lastName": "PANDYA",
+        "email": "dearanayjI@gmail.com",
+        "address": "GR HOSTEL-3, PDEU ROAD, RAYSAN - 382007",
+        "city": "GANDHINAGAR",
+        "zip": "382007"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "3",
+            "name": "Mechanical Keyboard",
+            "price": 129.5,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=800&auto=format&fit=crop",
+            "description": "Wireless mechanical keyboard with tactile switches."
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "1",
+            "name": "Sony WH-1000XM5",
+            "price": 348,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=800&auto=format&fit=crop",
+            "description": "Industry leading noise canceling wireless headphones."
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 515.7,
+      "paymentMethod": "upi",
+      "date": "2026-04-08T16:08:13.101Z"
+    },
+    {
+      "id": "4fgXgQEFdDE",
+      "customer": {
+        "firstName": "ANAY",
+        "lastName": "PANDYA",
+        "email": "dearanayji@gmail.com",
+        "address": "GR HOSTEL-3, PDEU ROAD, RAYSAN - 382007",
+        "city": "GANDHINAGAR",
+        "zip": "382007"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "3",
+            "name": "Mechanical Keyboard",
+            "price": 129.5,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=800&auto=format&fit=crop",
+            "description": "Wireless mechanical keyboard with tactile switches."
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "2",
+            "name": "Minimalist Desk Lamp",
+            "price": 89.99,
+            "category": "Home",
+            "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop",
+            "description": "Sleek and modern desk lamp with adjustable brightness."
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 237.0492,
+      "paymentMethod": "upi",
+      "paymentSummary": {
+        "upiId": "dearanayji@okaxis"
+      },
+      "status": "processing",
+      "date": "2026-04-08T16:23:09.543Z"
+    },
+    {
+      "id": "dlrohwPHtGI",
+      "customer": {
+        "firstName": "ANAY",
+        "lastName": "PANDYA",
+        "email": "anay.btmtcs1232808@nfsu.ac.in",
+        "address": "GR HOSTEL-3, PDEU ROAD, RAYSAN - 382007",
+        "city": "GANDHINAGAR",
+        "zip": "382007"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "3",
+            "name": "Mechanical Keyboard",
+            "price": 129.5,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=800&auto=format&fit=crop",
+            "description": "Wireless mechanical keyboard with tactile switches."
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "2",
+            "name": "Minimalist Desk Lamp",
+            "price": 89.99,
+            "category": "Home",
+            "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop",
+            "description": "Sleek and modern desk lamp with adjustable brightness."
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 237.0492,
+      "paymentMethod": "upi",
+      "paymentSummary": {
+        "upiId": "dearanayji@okaxis"
+      },
+      "status": "processing",
+      "date": "2026-04-08T16:32:31.479Z"
+    },
+    {
+      "id": "qZigR7rHdTY",
+      "customer": {
+        "firstName": "ANAY",
+        "lastName": "PANDYA",
+        "email": "anay.btmtcs1232808@nfsu.ac.in",
+        "address": "GR HOSTEL-3, PDEU ROAD, RAYSAN - 382007",
+        "city": "GANDHINAGAR",
+        "zip": "382007"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "2",
+            "name": "Minimalist Desk Lamp",
+            "price": 89.99,
+            "category": "Home",
+            "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop",
+            "description": "Sleek and modern desk lamp with adjustable brightness."
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "3",
+            "name": "Mechanical Keyboard",
+            "price": 129.5,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=800&auto=format&fit=crop",
+            "description": "Wireless mechanical keyboard with tactile switches."
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 237.0492,
+      "paymentMethod": "upi",
+      "paymentSummary": {
+        "upiId": "dearanayji@okaxis"
+      },
+      "status": "processing",
+      "date": "2026-04-08T16:48:00.414Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

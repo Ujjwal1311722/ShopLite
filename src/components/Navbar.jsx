@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Truck } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useSelector } from 'react-redux';
+import { selectCartCount } from '../store/cartSlice';
 import './Navbar.css';
 
 const Navbar = () => {
-  const { itemCount } = useCart();
+  const itemCount = useSelector(selectCartCount);
 
   return (
     <nav className="navbar glass-panel">

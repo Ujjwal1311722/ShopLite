@@ -1,10 +1,17 @@
 import React from 'react';
-import { useCart } from '../context/CartContext';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../store/cartSlice';
 import { Plus } from 'lucide-react';
+import toast from 'react-hot-toast';
 import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
-  const { addToCart } = useCart();
+  const dispatch = useDispatch();
+
+  const handleAddToCart = () => {
+    dispatch(addToCart(product));
+    toast.success(`${product.name} added to cart!`);
+  };
 
   return (
     <div className="product-card glass-panel">
@@ -19,7 +26,7 @@ const ProductCard = ({ product }) => {
           <span className="product-price">${product.price.toFixed(2)}</span>
           <button 
             className="primary-btn add-btn" 
-            onClick={() => addToCart(product)}
+            onClick={handleAddToCart}
             aria-label={`Add ${product.name} to cart`}
           >
             <Plus size={18} />
